@@ -13,16 +13,23 @@ Only standard libraries (NumPy, SciPy, and Matplotlib) are used. There is one Ju
 
 **1.** `fig1-intuition.ipynb` Contains code for generating Figure 1, "Turnover and noise as key obstacles for molecular memory".
 
-
+<p align="center">
+<img src="fig_images/fig1-intuition.png" width="600"/></p>
 
 **2.** `fig2-MI.ipynb` Contains code for generating Figure 2, "Memory performance can be quantified in terms of mutual information".
 
-
+<p align="center">
+<img src="fig_images/fig2-mi.png" width="600"/></p>
 
 **3.** `fig3-duplicate.ipynb` Contains code for generating Figure 3, "Increasing the number of switches inefficiently improves performance".
 
+<p align="center">
+<img src="fig_images/fig3-twotwo.png" width="600"/></p>
+
 **4.** `fig4-crick.ipynb` Contains code for generating Figure 4, "Crick-like error correction efficiently extends memory lifetime by introducing a slow time scale".
 
+<p align="center">
+<img src="fig_images/fig4-crick.png" width="600"/></p>
 
 
 **5.** `fig5-realistic.ipynb` Contains code for generating Figure 5, "Error correction also improves more realistic Crick-like switches".
