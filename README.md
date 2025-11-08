@@ -34,5 +34,6 @@ Only standard libraries (NumPy, SciPy, and Matplotlib) are used. There is one Ju
 
 **5.** `fig5-realistic.ipynb` Contains code for generating Figure 5, "Error correction also improves more realistic Crick-like switches".
 
-
+<p align="center">
+<img src="fig_images/fig5-realistic.png" width="600"/></p>
 
