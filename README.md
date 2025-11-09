@@ -1,5 +1,6 @@
 # Storing long-lived memories via molecular error correction: a minimal mathematical model of Crick's memory switch
 
+<p align="center">John J. Vastola, Tejas Ramdas, and Samuel J. Gershman </p>
 
 This repo contains code that reproduces the figures from "**Storing long-lived memories via molecular error correction: a minimal mathematical model of Crick's memory switch**".
 
