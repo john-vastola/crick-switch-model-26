@@ -2,7 +2,7 @@
 
 <p align="center">John J. Vastola, Tejas Ramdas, and Samuel J. Gershman </p>
 
-This repo contains code that reproduces the figures from "**Storing long-lived memories via molecular error correction: a minimal mathematical model of Crick's memory switch**".
+This repo contains code that reproduces the figures from "**Storing long-lived memories via molecular error correction: a minimal mathematical model of Crick's memory switch**". [Read the preprint at bioRxiv](https://www.biorxiv.org/content/10.1101/2025.11.13.688304v1).
 
 
 
@@ -37,4 +37,23 @@ Only standard libraries (NumPy, SciPy, and Matplotlib) are used. There is one Ju
 
 <p align="center">
 <img src="fig_images/fig5-realistic.png" width="600"/></p>
+
+Files containing important functions used by the above notebooks (`firstpassage.py`, `fsp.py`, `gillespie.py`, `MI.py`, `plotting.py`, and `solutions.py`) are in the `functions/` folder. Intended notebook outputs are in the `results/` folder.
+
+## Citation
+
+```bibtex
+@article{vastola_storing_2025,
+	title = {Storing long-lived memories via molecular error correction: a minimal mathematical model of {Crick}’s memory switch},
+	url = {https://www.biorxiv.org/content/early/2025/11/13/2025.11.13.688304},
+	doi = {10.1101/2025.11.13.688304},
+	abstract = {Molecular memory storage mechanisms face two serious obstacles: they must be robust to the intrinsic noise characteristic of molecular-scale processes, and they must rely on components (like proteins) whose effective lifetimes are limited for biophysical reasons. For example, if one stores a memory by attaching a post-translational ’mark’ to a protein, naively the lifetime of that memory is limited by protein turnover and ambient demarking activity. In this work, we investigate the principles of persistent and noise-robust molecular memory by studying simple mathematical models of protein-marking-state-based memory switches. We pay special attention to two possible strategies for improving memory storage: effectively averaging over noise by using a large number of proteins, and an enzyme-based ’error correction’ mechanism first proposed by Francis Crick. Through an exhaustive mathematical analysis of these models, which includes solving most of them exactly, we find that error correction provides an effective mechanism for storing long-lived memories, and that using large populations of proteins only slightly improves the lifetime of stored memories. But we also find that error correction is not always useful, since too much of it can make the probability of false positives excessively high. Our findings lend credence to Crick’s proposal, and suggest motifs that may be exploited by potential intracellular memory storage mechanisms. Finally, in addressing these issues, we also provide general insight about how to define memory performance in the molecular setting, as well as associated notions like lifetime and capacity.Competing Interest StatementThe authors have declared no competing interest.United States Air Force Office of Scientific Research, https://ror.org/011e9bt93, FA9550-22-1-0345Schmidt Sciences, https://ror.org/044fk6795, Polymath Award},
+	journal = {bioRxiv},
+	author = {Vastola, John J and Ramdas, Tejas and Gershman, Samuel J},
+	year = {2025},
+	note = {Publisher: Cold Spring Harbor Laboratory
+\_eprint: https://www.biorxiv.org/content/early/2025/11/13/2025.11.13.688304.full.pdf},
+}
+```
+
 
